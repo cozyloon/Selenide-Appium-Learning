@@ -11,6 +11,6 @@ public class ProductDescriptionScreen {
     private WebElement addToCart;
 
     public void addToCartButtonIsDisplayed(){
-        $(addToCart).should(visible);
+        $(addToCart).shouldHave(visible);
     }
 }
