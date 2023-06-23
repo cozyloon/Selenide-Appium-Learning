@@ -15,6 +15,7 @@ public class SelenideAndroidTest {
         SelenideAppium.launchApp();
         ScreenObject.screen(HomeScreen.class)
                 .clickProduct1()
-                .addToCartButtonIsDisplayed();
+                .clickAddToCartButton()
+                .clickCheckoutButton();
     }
 }
